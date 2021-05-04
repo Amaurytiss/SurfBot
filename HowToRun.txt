@@ -1,0 +1,17 @@
+Ouvrir dialogflow sur le navigateur
+
+Ouvrir un premier terminal, aller dans le dossier où il y a ngrok.exe 
+taper la commande .\ngrok http http://127.0.0.1:5000
+
+copier le lien https://_____.ngrok.io
+ne plus fermer cette fenetre
+
+aller dans fullfillment sur diagflow
+rentre dans url : https://_____.ngrok.io + /webhook
+
+Lancer un nouveau terminal
+aller dans le dossier où il y a serv.py 
+taper python serv.py
+laisser la fenetre ouverte
+
+Communiquer avec le chatbot depuis le fenetre de test

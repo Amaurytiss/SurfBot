@@ -1,0 +1,38 @@
+﻿*{
+    Margin: 0;
+    Padding: 0;
+}
+#chatbot_container {
+    border: solid black;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+#titre {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color: rgba(16, 16, 41, 0.63);
+    padding-top: 3vh;
+    z-index: -1;
+}
+
+#container_background{
+
+    background: url("images/background2.webp");
+
+}
+
+#logo {
+    size: 10%;
+
+}
