@@ -26,6 +26,7 @@ SurBot currently support these spots :
 
 ![Alt homepage](https://github.com/Amaurytiss/SurfBot/blob/main/images/avaible_spots.JPG)
 
+## Why I can't run it ?
 
-
-
+To run this bot you will need to build your own DialogFlow architecture on the dialogflow website, it depends on your google account and can't be shared here indeed.
+You can still use the api and server example, or ask me anything if you want to build a similar project
