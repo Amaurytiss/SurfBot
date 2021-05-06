@@ -1,6 +1,7 @@
 ﻿#%%
 import requests
 import json 
+from api_key import key
 
 #Function to convert a wind orientation in degrees in a cardinal direction
 
@@ -88,7 +89,7 @@ class Forecast:
     #Method wich send a string describing the waves condition on the choosen spot
     def send_weather(self):
 
-        weather = requests.get("https://api.openweathermap.org/data/2.5/weather?lat=48.4&lon=-4.5&appid=8d088d57db40bc0e85ee66ddaf48f9db").json()
+        weather = requests.get(f"https://api.openweathermap.org/data/2.5/weather?lat=48.4&lon=-4.5&appid={key}").json()
 
         weather_description = weather['weather'][0]['description']
         air_temperature = weather['main']['temp']
